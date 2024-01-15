@@ -1,0 +1,434 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style Nav */
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    border-bottom: 1px solid black;
+    /* background-color: powderblue; */
+}
+
+.nav-items {
+    display: flex;
+    width: 15%;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.rightmenu1{
+    text-decoration: none;
+    color: black;
+}
+
+/* Style Header */
+/* .header{
+    width: 100%;
+    height: 50vh;
+    background-image: url("./assets/slide3.jpg");
+} */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+}
+
+/* Style Main */
+.main{
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 5em;
+    justify-content: space-around;
+}
+
+.main-desc{
+    font-family: 'Zilla Slab', serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.main-box-1, .main-box-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main-box-1{
+    width: 40%;
+}
+
+.main-box-2{
+    width: 50%;
+    background-color: #ed9434;
+    color: whitesmoke;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 150px;
+    padding: 70px;
+}
+
+.main-box-3{
+    width: 100%;
+    height: 50%;
+    justify-content: space-around;
+    display: flex;
+    padding: 100px;
+}
+
+/* STYLE RECIPE HTML */
+/* Style Header */
+.h1-recipes{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+}
+
+/* Style Bullets */
+.recipe-bullets{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 4em;
+}
+
+.bullets-items{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.bullets-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bullets-desc{
+    padding-top: 12px;
+    font-size: 21px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#items-1{
+    background-image: url("assets/cake.jpg");
+}
+
+#items-2{
+    background-image: url("assets/bread.jpg");
+}
+
+#items-3{
+    background-image: url("assets/soup.jpg");
+}
+
+#items-4{
+    background-image: url("assets/vegan.jpg");
+}
+
+#items-5{
+    background-image: url("assets/western.jpg");
+}
+
+#items-6{
+    background-image: url("assets/korean.jpg");
+}
+
+#items-7{
+    background-image: url("assets/indonesian.jpg");
+}
+
+.recipe-title{
+    font-size: 30px;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 600;
+    margin-top: 70px;
+}
+.recipe-cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4em;
+    width: 100%;
+}
+
+.cards-item{
+    display: flex;
+    justify-content: space-around;
+    width: 360px;
+    height: 540px;
+    background-color: blanchedalmond;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+.cards-item-2{
+    display: flex;
+    justify-content: space-around;
+    width: 360px;
+    height: 540px;
+    background-color: rgba(22, 58, 78, 0.438);
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+.cards-img{
+    width: 100%;
+    height: 75%;
+    background-size: cover;
+    background-position: center;
+}
+
+.cards-btn{
+    color: black;
+    background-color: transparent;
+    width: 100%;
+    height: 25%;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    font-weight: 600;
+}
+
+.cards-btn-2{
+    -webkit-text-stroke-width: 0.25px;
+    -webkit-text-stroke-color: black;
+    color: white;
+    background-color: transparent;
+    width: 100%;
+    height: 25%;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    font-weight: 600;
+}
+
+#img-1{
+    background-image: url("assets/cordonbleu.jpg");
+}
+
+#img-2{
+    background-image: url("assets/risol.jpg");
+}
+
+#img-3{
+    background-image: url("assets/soto.jpg");
+}
+
+#img-4{
+    background-image: url("assets/rawon.jpg");
+}
+
+#img-5{
+    background-image: url("assets/lasagna.jpg");
+}
+
+#img-6{
+    background-image: url("assets/kimchi.jpg");
+}
+
+#img-7{
+    background-image: url("assets/mochibites.jpeg");
+}
+
+#img-8{
+    background-image: url("assets/corndog.jpg");
+}
+
+/* STYLE ABOUT HTML */
+/* Style Header */
+.about-header{
+    font-family: 'Zilla Slab', serif;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 20px;
+}
+
+.about-bg{
+    font-family: 'Zilla Slab', serif;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 20px;
+    border-bottom: 4px solid black;
+    margin: 20px;
+}
+
+.about-img{
+    margin: 50px;
+}
+
+.about-main{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 50%;
+}
+
+.about-us{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 600px;
+    height: 550px;
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+
+/* Style Content */
+.content-container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.content-img{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-post{
+    width: 90%;
+    height: 80%;
+    background-size: cover;
+    background-position: center;
+    margin: 2em;
+    background-color: blanchedalmond;
+}
+
+.content-desc{
+    width: 50%;
+    height: 100%;
+    padding: 4em;
+    font-family: 'Montserrat', sans-serif;
+    overflow-y: scroll;
+    
+}
+
+#content-1{
+    background-image: url("assets/cordonbleu.jpg");
+}
+
+#content-2{
+    background-image: url("assets/risol.jpg");
+}
+
+#content-3{
+    background-image: url("assets/soto.jpg");
+}
+
+#content-4{
+    background-image: url("assets/rawon.jpg");
+}
+
+#content-5{
+    background-image: url("assets/lasagna.jpg");
+}
+
+#content-6{
+    background-image: url("assets/kimchi.jpg");
+}
+
+#content-7{
+    background-image: url("assets/mochibites.jpeg");
+}
+
+#content-8{
+    background-image: url("assets/corndog.jpg");
+}
+.desc-box-1{
+    margin-bottom: 3em;
+
+}
+
+.box-1-list, .box-2-list{
+    margin-left: 4em;
+    margin-top: 20px;
+}
+/* Style Footer */
+footer{
+    background-color: rgb(38, 70, 83);
+}
+
+.center-footer{
+    margin: 0px;
+}
+
+.main-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.info-top{
+    text-align: center;
+    width: 100%;
+    padding: 0.5rem;
+    color: rgb(224, 251, 252);
+    font-size: 23px;
+    
+}
+
+.info-center{
+    text-align: center;
+    width: 100%;
+    padding: 0.5rem;
+    border-top: 1px solid white;
+    color: rgb(224, 251, 252);
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+
+.fa-instagram-square, .fa-twitter-square, .fa-facebook-square, .fa-youtube-square{
+    padding: 5px;
+    font-size: 30px;
+    color: white;
+}

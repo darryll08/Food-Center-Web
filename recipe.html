@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/f90068558c.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Link Swiper's CSS -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </head>
+  <body>
+    <!-- Navigation-->
+    <nav class="nav">
+      <div class="nav-logo">
+        <h1>Food Center</h1>
+      </div>
+      <div class="nav-items">
+        <p> <a href="./index.html" class="rightmenu1">Home</a></p>
+        <p> <a href="./recipe.html" class="rightmenu1">Recipe</a></p>
+        <p> <a href="./about.html" class="rightmenu1">About</a></p>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <h1 class="h1-recipes">RECIPES</h1>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <!-- Bullet -->
+        <div class="recipe-bullets">
+            <div class="bullets-container">
+                <div class="bullets-items" id="items-1"></div>
+                <p class="bullets-desc">Cake</p> 
+            </div>
+
+            <div class="bullets-container">
+                <div class="bullets-items" id="items-2"></div>
+                <p class="bullets-desc">Bread & Pastry</p> 
+            </div>
+
+            <div class="bullets-container">
+                <div class="bullets-items" id="items-3"></div>
+                <p class="bullets-desc">Soup</p> 
+            </div>
+
+            <div class="bullets-container">
+                <div class="bullets-items" id="items-4"></div>
+                <p class="bullets-desc">Vegan</p> 
+            </div>
+
+            <div class="bullets-container">
+                <div class="bullets-items" id="items-5"></div>
+                <p class="bullets-desc">Western</p> 
+            </div>
+
+            <div class="bullets-container">
+                <div class="bullets-items" id="items-6"></div>
+                <p class="bullets-desc">Korean</p> 
+            </div>
+
+            <div class="bullets-container">
+                <div class="bullets-items" id="items-7"></div>
+                <p class="bullets-desc">Indonesian</p> 
+            </div>
+        </div>
+
+        <div class="recipe-cards">
+            <p class="recipe-title">Recipes Of The Week</p>
+            <!-- cards -->
+            <div class="cards-container">
+                <div class="cards-item">
+                    <div class="cards-img" id="img-1"></div>
+                    <button class="cards-btn"><a style="text-decoration: none; color: black;" href="./cordonBleu.html">Chicken Cordon Bleu</a></button>
+                </div>
+
+                <div class="cards-item">
+                    <div class="cards-img" id="img-2"></div>
+                    <button class="cards-btn"><a style="text-decoration: none; color: black;" href="./risol.html">Risol Mayonaise</a></button>
+                </div>
+
+                <div class="cards-item">
+                    <div class="cards-img" id="img-3"></div>
+                    <button class="cards-btn"><a style="text-decoration: none; color: black;" href="./soto.html">Soto Ayam Spesial</a></button>
+                </div>
+
+                <div class="cards-item">
+                    <div class="cards-img" id="img-4"></div>
+                    <button class="cards-btn"><a style="text-decoration: none; color: black;" href="./rawon.html">Rawon Khas Jawa Timur</a></button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="recipe-cards">
+            <p class="recipe-title">Our Newest Recipes</p>
+            <!-- cards -->
+            <div class="cards-container">
+                <div class="cards-item-2">
+                    <div class="cards-img" id="img-5"></div>
+                    <button class="cards-btn-2"><a class="cards-btn-2" style="text-decoration: none;" href="./lasagna.html">Classic Lasagna</a></button>
+                </div>
+
+                <div class="cards-item-2">
+                    <div class="cards-img" id="img-6"></div>
+                    <button class="cards-btn-2"><a class="cards-btn-2" style="text-decoration: none;" href="./kimchi.html">Kimchi</a></button>
+                </div>
+
+                <div class="cards-item-2">
+                    <div class="cards-img" id="img-7"></div>
+                    <button class="cards-btn-2"><a class="cards-btn-2" style="text-decoration: none;" href="./mochi.html">Mochi Bites</a></button>
+                </div>
+
+                <div class="cards-item-2">
+                    <div class="cards-img" id="img-8"></div>
+                    <button class="cards-btn-2"><a class="cards-btn-2"style="text-decoration: none;" href="./cornDog.html">Corn Dog</a></button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="main-footer">
+        <h3 class="info-top">Food Center</h3>
+        <div class="social-media">
+          <i class="fab fa-instagram-square"></i>
+          <i class="fab fa-twitter-square"></i>
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-youtube-square"></i>
+        </div>
+        <p class="info-center">
+          Copyright &copy; 2024, Food Center, All rights reserved
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

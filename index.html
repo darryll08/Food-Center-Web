@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/f90068558c.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <!-- Link Swiper's CSS -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </head>
+  <body>
+    <!-- Navigation-->
+    <nav class="nav">
+      <div class="nav-logo">
+        <h1>Food Center</h1>
+      </div>
+      <div class="nav-items">
+        <p> <a href="./index.html" class="rightmenu1">Home</a></p>
+        <p> <a href="./recipe.html" class="rightmenu1">Recipe</a></p>
+        <p> <a href="./about.html" class="rightmenu1">About</a></p>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="assets/slide1.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="assets/slide2.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="assets/slide3.jpg" alt="">
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+        <div class="main-box-1">
+            <img src="assets/foodcenter.jpg" alt="" width="550px" height="550px">
+        </div>
+        <div class="main-box-2">
+            <p class="main-desc">Welcome To The Food Center.<br> At Food Center, we believe in the magic of food to bring people together, create memories, and satisfy the soul. Our diverse menu is a symphony of flavors, carefully curated to tantalize your taste buds and leave you craving for more. </p>
+        </div>
+        
+    </main>
+        <div class="main-box-3">
+          <img src="assets/home1.jpg" alt="" width="800px" height="600px">
+          <img src="assets/home2.jpg" alt="" width="800px" height="600px">
+        </div> 
+
+
+
+    <!-- Footer -->
+    <footer>
+      <div class="main-footer">
+        <h3 class="info-top">Food Center</h3>
+        <div class="social-media">
+          <i class="fab fa-instagram-square"></i>
+          <i class="fab fa-twitter-square"></i>
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-youtube-square"></i>
+        </div>
+        <p class="info-center">
+          Copyright &copy; 2024, Food Center, All rights reserved
+        </p>
+      </div>
+    </footer>
+
+    <!-- Script -->
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      AOS.init();
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 0,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
